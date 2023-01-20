@@ -1,0 +1,73 @@
+{
+	"version": "https://jsonfeed.org/version/1",
+	"title": "logic2Design",
+	"icon": "https://micro.blog/logic2Design/avatar.jpg",
+	"home_page_url": "https://logic2design.micro.blog/",
+	"feed_url": "https://logic2design.micro.blog/feed.json",
+	"items": [
+		
+			{
+				"id": "http://logic2design.micro.blog/2023/01/20/chatgpt-siri-shortcut.html",
+				"title": "ChatGPT Siri Shortcut",
+				"content_html": "<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n",
+				"content_text": "<p>I created this Shortcut to interact with Chat GPT.</p>\n\n<p>There are options to display or speak the results, add follow-up questions and share the final results by email, message etc. You just need to add your own Open AI API Key.</p>\n\n<p>[www.icloud.com/shortcuts...](https://www.icloud.com/shortcuts/f1eec0fdad1d4f48ac1d868601b23a62)</p>\n\n<p><img style=\"display:block; margin-left:auto; margin-right:auto;\" src=\"https://logic2design.micro.blog/uploads/2023/fb842b0fc0.png\" alt=\"Siri Chat GPT\" title=\"Siri Chat GPT.png\" border=\"0\" width=\"599\" height=\"498\" /></p>\n",
+				"date_published": "2023-01-20T10:04:38+08:00",
+				"url": "https://logic2design.micro.blog/2023/01/20/chatgpt-siri-shortcut.html",
+				"tags": ["Code","Automation","AI"]
+			},
+			{
+				"id": "http://logic2design.micro.blog/2023/01/06/apple-music-to.html",
+				"title": "Apple Music to Obsidian",
+				"content_html": "<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n",
+				"content_text": "<p>As a new years resolution, I decided to give <a href=\"https://obsidian.md/\">Obsidian</a> another go; so far I am impressed with how the plugin ecosystem has developed since my last attempt to use the app.</p>\n\n<p>One of the categories of data I want to capture in my <a href=\"https://www.buildingasecondbrain.com/\">2nd Brain</a> is music that I like. </p>\n\n<p>The goal of automating this process is to streamline the workflow and make it easier to get all of this information into Obsidian without having to manually copy and paste everything.</p>\n\n<p>There is a plugin called <a href=\"https://github.com/mProjectsCode/obsidian-media-db-plugin\">Obsidian Media DB</a> that is very useful, but ultimately there are gaps in the metadata that it will capture, resulting in me building my own approach. To accomplish this, I created a Shortcut to capture metadata relating to the current song playing in Apple Music.\n<ul>\n <li><a href=\"https://www.icloud.com/shortcuts/2b1a12bcfd18450693af31f546edf4ee\">Shazam It to Obsidian</a> - captures the song being played via <a href=\"https://support.apple.com/en-au/HT210331\">Shazam</a> recognition</li>\n</ul></p>\n\n<p>The Shortcut will create a new note about the song incorporating the metadata that I require to create an archive of music.</p>\n\n<p><img style=\"display:block; margin-left:auto; margin-right:auto;\" src=\"https://logic2design.micro.blog/uploads/2023/89c1659935.png\" alt=\"Music metadata\" title=\"Play Some D by Brassy.png\" border=\"0\" width=\"600\" height=\"432\" /></p>\n\n<p>With the use of the <a href=\"https://blacksmithgu.github.io/obsidian-dataview/\">Dataview</a> plugin and the <a href=\"https://github.com/kepano/obsidian-minimal\">Minimal theme</a> I can create a dashboard of the captured song data that also allows me to play the song directly from Apple Music.</p>\n\n<p><img style=\"display:block; margin-left:auto; margin-right:auto;\" src=\"https://logic2design.micro.blog/uploads/2023/34b5de074c.png\" alt=\"Music Gallery\" title=\"Obsidian Music Gallery.png\" border=\"0\" width=\"600\" height=\"547\" /></p>\n\n<blockquote>---\ncssClasses: cards, cards-cover, cards-1-1, table-max\ntags: music\n---\n```dataview\nTABLE WITHOUT ID\nlink(file.link,title) as \"Title\",artist as Artists, (\"![|100](\" + cover + \")\")  as Cover,year as Year,\ngenre as Genre,(\"[▶️](\" + url + \")\") as Play\nFROM \"Media/Music\"\nSORT artist asc\n```</blockquote>\n\n<p>As part of the process, I also save the song to a Playlist within Apple Music.</p>\n\n<p>It is early days as yet, but I am liking Obsidian&#8217;s ability to quickly capture and catalogue music, movies, TV series, books and webpage information.</p>\n\n<p>Automating the process of capturing data for use in Obsidian can save you a lot of time and effort and make it easier to keep your vault organised and up-to-date. Whether you use plugins, Shortcuts or custom code, there are plenty of options available for streamlining this process.</p>\n\n<p>Find more automation workflows at <a href=\"https://www.logic2design.com\">logic2Design.com</a>.</p>\n",
+				"date_published": "2023-01-06T14:54:48+08:00",
+				"url": "https://logic2design.micro.blog/2023/01/06/apple-music-to.html",
+				"tags": ["Code","Automation","Music"]
+			},
+			{
+				"id": "http://logic2design.micro.blog/2022/12/13/i-just-finished.html",
+				
+				"content_html": "<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n",
+				"content_text": "<p>I just finished the Blind Smartphone Camera Test 2022, here are my results:\nCategory: Standard</p>\n\n<p>🥇: G\n🥈: O\n🥉: I</p>\n\n<p>Get your results at vote.mkbhd.com</p>\n",
+				"date_published": "2022-12-13T05:39:44+08:00",
+				"url": "https://logic2design.micro.blog/2022/12/13/i-just-finished.html",
+				"tags": ["Technology"]
+			},
+			{
+				"id": "http://logic2design.micro.blog/2022/12/10/family-tree-documentation.html",
+				"title": "Family Tree documentation automatic rename and file via Hazel",
+				"content_html": "<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n",
+				"content_text": "<p>While researching my family tree, I have gathered a large collection of documentation and media files. I like to file them consistently to allow for easy access. The naming convention I have settled on is</p>\n\n<ul>\n<li>Document Type</li>\n<li>Document Year</li>\n<li>Family Name</li>\n<li>Given Names(s)</li>\n<li>Notes</li>\n</ul>\n\n<p>To automate the process, I created a <a title=\"Noodlesoft's Hazel\" href=\"https://www.noodlesoft.com\">Hazel Rule</a> that prompts for the various information categories, then renames the file, moving it to a centralised folder and filing it into a <em>Family Name-Document Type</em> structure.</p>\n\n<p>For future reference, I store the URL of the site the information was downloaded from as a Comment.</p>\n\n<figure><img src=\"uploads/2022/789afceba2.png\" alt=\"\" /></figure>\n\n<p>A video of the process can be viewed here.</p>\n\n<p>{{< youtube dc_BgJ6AmAY >}}</p>\n\n<p>A copy of the Hazel rule can be downloaded via this <a title=\"Hazel Rules\" href=\"http://d.pr/f/QkdzCH\">link</a>.</p>\n",
+				"date_published": "2022-12-10T08:31:40+08:00",
+				"url": "https://logic2design.micro.blog/2022/12/10/family-tree-documentation.html",
+				"tags": ["Code","Genealogy"]
+			},
+			{
+				"id": "http://logic2design.micro.blog/2022/12/10/business-cards-to.html",
+				"title": "Business Cards to Devonthink",
+				"content_html": "<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n",
+				"content_text": "<p>This routine will detect scanned business cards then via a <a href=\"https://www.noodlesoft.com/\" title=\"Hazel\">Hazel </a>rule prompt for a new name and then automatically file away in the nominated location in <a href=\"http://www.devontechnologies.com/products/devonthink/overview.html\" title=\"Devonthink\">Devonthink.</a></p>\n\n<ol>\n<li>Scan Business Card to Folder</li>\n<li>Run this Hazel <a href=\"https://d.pr/f/Kn8dKP\" title=\"Hazel Rule\">rule</a> on the Folder</li>\n<li>Preview will open, showing you the Business Card</li>\n<li>You will be prompted for a name for the Business Card</li>\n<li>Preview will close</li>\n<li>Business Card will be filed to the nominated Database and Folder in Devonthink Pro.</li>\n</ol>\n\n<figure>\n<img src=\"uploads/2022/7d1bfbe106.png\" alt=\"\" />\n</figure>\n\n<figure>\n<img src=\"uploads/2022/26de376817.png\" alt=\"\" />\n</figure>\n\n<figure>\n<img src=\"uploads/2022/84ab00a097.png\" alt=\"\" title=\"Applescript\" />\n</figure>\n\n<figure>\n<img src=\"uploads/2022/c9b7db8fde.png\" alt=\"\" title=\"File to Devonthink\" />\n</figure>\n\n<figure>\n<img src=\"uploads/2022/43616abca1.png\" alt=\"\" />\n</figure>\n\n<p>The Hazel rule can be downloaded <a href=\"https://d.pr/f/Kn8dKP\" title=\"Hazel Rule\">here</a>.</p>\n",
+				"date_published": "2022-12-10T07:05:01+08:00",
+				"url": "https://logic2design.micro.blog/2022/12/10/business-cards-to.html",
+				"tags": ["Code","Automation"]
+			},
+			{
+				"id": "http://logic2design.micro.blog/2022/12/08/having-lots-of.html",
+				
+				"content_html": "<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n",
+				"content_text": "<p>Having lots of fun with #ChatGPT. Was impressed with this result</p>\n\n<p><img src=\"uploads/2022/8f561ad299.png\" alt=\"\" width=\"600\" height=\"453\" /></p>\n",
+				"date_published": "2022-12-08T17:20:56+08:00",
+				"url": "https://logic2design.micro.blog/2022/12/08/having-lots-of.html",
+				"tags": ["AI"]
+			},
+			{
+				"id": "http://logic2design.micro.blog/2022/12/08/currently-reading-building.html",
+				
+				"content_html": "<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n",
+				"content_text": "<p>Currently reading: <a href=\"https://micro.blog/books/9781982167400\">Building a Second Brain: A Proven Method to Organize Your Digital Life and Unlock Your Creative Potential</a> by Tiago Forte 📚</p>\n\n<p>Excellent source of ideas to organise your digital life.</p>\n",
+				"date_published": "2022-12-08T16:57:32+08:00",
+				"url": "https://logic2design.micro.blog/2022/12/08/currently-reading-building.html",
+				"tags": ["Books"]
+			}
+	]
+}
